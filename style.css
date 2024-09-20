@@ -15,9 +15,13 @@ main{
     width: 100%;
 }
 nav{
+    height: 10%;
+    width: 100%;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    position: fixed;
 }
 .heading{
     display: flex;
@@ -49,6 +53,7 @@ button{
 .left{
     height: 620px;
     width: 50%;
+    padding-top:30px ;
 }
 .left h1{
     padding-top:10% ;
@@ -84,10 +89,65 @@ button{
 .right{
     height: 620px;
     width: 50%;
+    padding-top:30px ;
 }
 .right img{
     height: 75%;
     width: 90%;
     border-radius: 40px;
     margin-top:60px ;
+}
+.page2{
+    height: 100%;
+    width: 100%;
+}
+.page2 h1{
+    padding-top: 80px ;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.page2 p{
+    text-align: center;
+    line-height: 28px;
+    font-size:18px ;
+}
+.page2 .left{
+    height: 500px;
+    width: 60%;
+}
+.page2 .right{
+    height: 500px;
+    width: 40%;
+}
+.page2 .right h3{
+    text-align: center;
+    padding-top: 35%;
+    font-size: 35px;
+}
+.page2 .right p{
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 18%;
+}
+.page2 .right button{
+    padding:15px 45px ;
+    margin-top: 30px;
+}
+
+.page2 .right .button1{
+    border: none;
+    background-color: #fa4371;
+    color:white;
+    margin-left: 18%;
+}
+ .page2 .right .button2{
+    border: 2px solid #316be8 ;
+    color: #316be8;
+    background: transparent;
+}
+.page2 .left img{
+    margin: 8% 20%;
+    height: 400px;
+    width: 600px;
 }
